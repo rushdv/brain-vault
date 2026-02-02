@@ -4,7 +4,7 @@ import utils
 
 # ---------------- config ----------------
 st.set_page_config(
-    page_title="CS Archive",
+    page_title="Computer Science",
     page_icon="📚",
     layout="wide"
 )
