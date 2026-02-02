@@ -1,20 +1,47 @@
-# CS Archive
+# 🧠 Brain Vault
 
-This project contains archives for Computer Science semesters.
+Welcome to my personal knowledge repository. This is a central hub for all my academic notes, project documentations, and self-learning resources.
 
-## Structure
+---
 
-- **app.py**: The main UI/Entry point for the archive application.
-- **scripts/**: Helper scripts for managing the archive.
-- **general/**: General resources not specific to a semester.
-- **semester-1/**: Archive for Semester 1.
-- **semester-2/**: Archive for Semester 2.
-- **semester-3/**: Archive for Semester 3.
-- **semester-4/**: Archive for Semester 4.
+## 🚀 Current Roadmap (Spring 2026)
+Currently, I am focusing on my academic semester and ongoing development projects.
 
-## Usage
+### 📚 Academic Courses
+- [ ] **Algorithm Design** - Logic, complexity, and problem-solving.
+- [ ] **Mathematics III** - Advanced mathematical concepts.
+- [ ] **Electrical Engineering** - Circuit analysis and core principles.
+- [ ] **Physics II** - Electromagnetism and modern physics.
 
-Run the application using:
-```bash
-python app.py
-```
+### 🛠 Active Projects
+- **Nexum:** A social media platform under development.
+- **debug-ai:** A CLI tool to solve terminal errors using AI.
+
+---
+
+## 📁 Repository Structure
+
+### 💻 Computer Science
+- [Algorithms](./computer-science/algorithms)
+- [Web Development](./computer-science/web-dev) (React & Python)
+- [C++ Programming](./computer-science/cpp)
+
+### 🛡️ Cybersecurity 
+- [Ethical Hacking](./cybersecurity/ethical-hacking)
+- [Network Traffic Analysis](./cybersecurity/netscope-live)
+
+### 📐 Engineering & Science
+- [Math III](./engineering/math-3)
+- [Physics II](./engineering/physics-2)
+- [Electrical Engineering](./engineering/ee)
+
+---
+
+## 🔮 Future Expansion
+This vault is a living document. I plan to add more domains as I grow:
+- [ ] **Advanced Machine Learning**
+- [ ] **System Architecture**
+- [ ] **Open Source Contributions**
+- [ ] **Cybersecurity Certifications (CEH, etc.)**
+
+> *"The mind is not a vessel to be filled, but a fire to be kindled."*
