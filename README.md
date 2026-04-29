@@ -1,54 +1,152 @@
 # 🧠 Brain Vault
 
-Welcome to my personal knowledge repository. This is a central hub for all my academic notes, project documentations, and self-learning resources.
+A personal knowledge repository with a modern web interface. This is a central hub for all academic notes, project documentation, and self-learning resources.
 
 ## 🌐 Live Deployments
 
-- **Version 2 (Current & Recommended):** [https://brain-vault-iota.vercel.app/](https://brain-vault-iota.vercel.app/)
-  - *Refactored static frontend deployed on Vercel.*
-- **Version 1 (Legacy):** [https://cs-archive.streamlit.app/](https://cs-archive.streamlit.app/)
-  - *Original Streamlit prototype.*
+- **Frontend (Current):** [https://brain-vault-iota.vercel.app/](https://brain-vault-iota.vercel.app/)
+  - Modern React + Vite application deployed on Vercel
+- **Legacy:** [https://cs-archive.streamlit.app/](https://cs-archive.streamlit.app/)
+  - Original Streamlit prototype (deprecated)
 
 ---
 
-## 🚀 Current Roadmap (Spring 2026)
-Currently, I am focusing on my academic semester and ongoing development projects.
+## 🏗️ Project Structure
 
-### 📚 Academic Courses
-- [ ] **Algorithm Design** - Logic, complexity, and problem-solving.
-- [ ] **Mathematics III** - Advanced mathematical concepts.
-- [ ] **Electrical Engineering** - Circuit analysis and core principles.
-- [ ] **Physics II** - Electromagnetism and modern physics.
+```
+brain-vault/
+├── frontend/              # React + Vite application
+├── backend/               # FastAPI backend server
+├── docs/                  # Documentation
+├── scripts/               # Utility scripts
+└── .github/workflows/     # CI/CD configuration
+```
 
-### 🛠 Active Projects
-- **Nexum:** A social media platform under development.
-- **debug-ai:** A CLI tool to solve terminal errors using AI.
+### Frontend
+- **Framework:** React 18 + Vite
+- **Styling:** Tailwind CSS
+- **Features:** Content browsing, resource management, responsive design
+
+### Backend
+- **Framework:** FastAPI
+- **Features:** RESTful API, CORS support, health checks
 
 ---
 
-## 📁 Repository Structure
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+
+- Python 3.9+
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/brain-vault.git
+cd brain-vault
+
+# Run setup script
+bash scripts/setup.sh
+```
+
+### Development
+```bash
+# Terminal 1: Frontend
+cd frontend && npm run dev
+
+# Terminal 2: Backend
+cd backend && source venv/bin/activate && uvicorn app.main:app --reload
+```
+
+For detailed setup instructions, see [docs/SETUP.md](./docs/SETUP.md)
+
+---
+
+## 📚 Documentation
+
+- **[Setup Guide](./docs/SETUP.md)** - Installation and development setup
+- **[API Documentation](./docs/API.md)** - Backend API endpoints
+- **[Contributing Guide](./docs/CONTRIBUTING.md)** - How to contribute
+
+---
+
+## 📁 Content Structure
 
 ### 💻 Computer Science
-- [Algorithms](./computer-science/algorithms)
-- [Web Development](./computer-science/web-dev) (React & Python)
-- [C++ Programming](./computer-science/cpp)
+- Algorithms & Data Structures
+- Web Development (React & Python)
+- C++ Programming
+- System Design
 
-### 🛡️ Cybersecurity 
-- [Ethical Hacking](./cybersecurity/ethical-hacking)
-- [Network Traffic Analysis](./cybersecurity/netscope-live)
+### 🛡️ Cybersecurity
+- Ethical Hacking
+- Network Analysis
+- Security Concepts
 
 ### 📐 Engineering & Science
-- [Math III](./engineering/math-3)
-- [Physics II](./engineering/physics-2)
-- [Electrical Engineering](./engineering/ee)
+- Mathematics III
+- Physics II
+- Electrical Engineering
 
 ---
 
-## 🔮 Future Expansion
-This vault is a living document. I plan to add more domains as I grow:
-- [ ] **Advanced Machine Learning**
-- [ ] **System Architecture**
-- [ ] **Open Source Contributions**
-- [ ] **Cybersecurity Certifications (CEH, etc.)**
+## 🔄 Current Roadmap (Spring 2026)
+
+### Features
+- [ ] Search functionality
+- [ ] User authentication
+- [ ] Content tagging system
+- [ ] Dark mode support
+- [ ] Mobile app
+
+### Academic
+- [ ] Algorithm Design
+- [ ] Advanced Mathematics
+- [ ] Electrical Engineering
+- [ ] Modern Physics
+
+### Projects
+- **Nexum:** Social media platform
+- **debug-ai:** AI-powered CLI error solver
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React 18
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+
+### Backend
+- FastAPI
+- Uvicorn
+- Pydantic
+- Python 3.9+
+
+### DevOps
+- GitHub Actions (CI/CD)
+- Vercel (Frontend Deployment)
+- Docker (Optional)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+---
+
+## 📧 Contact
+
+For questions or suggestions, feel free to open an issue or reach out.
 
 > *"The mind is not a vessel to be filled, but a fire to be kindled."*
